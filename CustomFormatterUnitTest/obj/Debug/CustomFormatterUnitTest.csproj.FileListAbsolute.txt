@@ -1,0 +1,7 @@
+C:\Users\Andrew\EPAM\ASP.NET.1501.Minich.Day2\CustomFormatterUnitTest\obj\Debug\CustomFormatterUnitTest.csprojResolveAssemblyReference.cache
+C:\Users\Andrew\EPAM\ASP.NET.1501.Minich.Day2\CustomFormatterUnitTest\bin\Debug\CustomFormatterUnitTest.dll
+C:\Users\Andrew\EPAM\ASP.NET.1501.Minich.Day2\CustomFormatterUnitTest\bin\Debug\CustomFormatterUnitTest.pdb
+C:\Users\Andrew\EPAM\ASP.NET.1501.Minich.Day2\CustomFormatterUnitTest\bin\Debug\CustomFormatterLogicLayer.dll
+C:\Users\Andrew\EPAM\ASP.NET.1501.Minich.Day2\CustomFormatterUnitTest\bin\Debug\CustomFormatterLogicLayer.pdb
+C:\Users\Andrew\EPAM\ASP.NET.1501.Minich.Day2\CustomFormatterUnitTest\obj\Debug\CustomFormatterUnitTest.dll
+C:\Users\Andrew\EPAM\ASP.NET.1501.Minich.Day2\CustomFormatterUnitTest\obj\Debug\CustomFormatterUnitTest.pdb

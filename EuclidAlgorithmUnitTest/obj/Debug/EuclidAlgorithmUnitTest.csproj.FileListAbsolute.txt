@@ -1,0 +1,7 @@
+C:\Users\Andrew\EPAM\ASP.NET.1501.Minich.Day2\EuclidAlgorithmUnitTest\bin\Debug\EuclidAlgorithmUnitTest.dll
+C:\Users\Andrew\EPAM\ASP.NET.1501.Minich.Day2\EuclidAlgorithmUnitTest\bin\Debug\EuclidAlgorithmUnitTest.pdb
+C:\Users\Andrew\EPAM\ASP.NET.1501.Minich.Day2\EuclidAlgorithmUnitTest\bin\Debug\EuclidAlgorithmLogicLayer.dll
+C:\Users\Andrew\EPAM\ASP.NET.1501.Minich.Day2\EuclidAlgorithmUnitTest\bin\Debug\EuclidAlgorithmLogicLayer.pdb
+C:\Users\Andrew\EPAM\ASP.NET.1501.Minich.Day2\EuclidAlgorithmUnitTest\obj\Debug\EuclidAlgorithmUnitTest.csprojResolveAssemblyReference.cache
+C:\Users\Andrew\EPAM\ASP.NET.1501.Minich.Day2\EuclidAlgorithmUnitTest\obj\Debug\EuclidAlgorithmUnitTest.dll
+C:\Users\Andrew\EPAM\ASP.NET.1501.Minich.Day2\EuclidAlgorithmUnitTest\obj\Debug\EuclidAlgorithmUnitTest.pdb

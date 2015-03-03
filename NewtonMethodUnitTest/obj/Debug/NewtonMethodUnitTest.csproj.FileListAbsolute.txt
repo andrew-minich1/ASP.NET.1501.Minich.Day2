@@ -1,0 +1,5 @@
+C:\Users\Andrew\EPAM\ASP.NET.1501.Minich.Day2\NewtonMethodUnitTest\bin\Debug\NewtonMethodUnitTest.dll
+C:\Users\Andrew\EPAM\ASP.NET.1501.Minich.Day2\NewtonMethodUnitTest\bin\Debug\NewtonMethodUnitTest.pdb
+C:\Users\Andrew\EPAM\ASP.NET.1501.Minich.Day2\NewtonMethodUnitTest\obj\Debug\NewtonMethodUnitTest.csprojResolveAssemblyReference.cache
+C:\Users\Andrew\EPAM\ASP.NET.1501.Minich.Day2\NewtonMethodUnitTest\obj\Debug\NewtonMethodUnitTest.dll
+C:\Users\Andrew\EPAM\ASP.NET.1501.Minich.Day2\NewtonMethodUnitTest\obj\Debug\NewtonMethodUnitTest.pdb

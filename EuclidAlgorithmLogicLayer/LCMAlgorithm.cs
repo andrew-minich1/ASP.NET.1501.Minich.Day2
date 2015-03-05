@@ -9,12 +9,9 @@ namespace EuclidAlgorithmLogicLayer
 {
     public static class LCMAlgorithm
     {
-        public static int EuclidAlgorithm(int firstNumber, int secondNumber, Stopwatch stopWatch = null)
+        #region EuclidAlgorithm
+        public static int EuclidAlgorithm(int firstNumber, int secondNumber)
         {
-            if (stopWatch != null)
-            {
-                stopWatch.Start();
-            }
             int temp;
             while (secondNumber != 0)
             {
@@ -22,11 +19,25 @@ namespace EuclidAlgorithmLogicLayer
                 secondNumber = firstNumber % secondNumber;
                 firstNumber = temp;
             }
-            if (stopWatch != null)
-            {
-                stopWatch.Stop();
-            }
             return Math.Abs(firstNumber);
+        }
+        public static int EuclidAlgorithm(int firstNumber, int secondNumber, out long time)
+        {
+            Stopwatch stopWatch = new Stopwatch();
+            stopWatch.Start();
+            firstNumber = EuclidAlgorithm(firstNumber, secondNumber);
+            stopWatch.Stop();
+            time = stopWatch.ElapsedTicks;
+            return firstNumber;
+        }
+        public static int EuclidAlgorithm(out long time, params int[] numbers)
+        {
+            Stopwatch stopWatch = new Stopwatch();
+            stopWatch.Start();
+            int result = EuclidAlgorithm(numbers);
+            stopWatch.Stop();
+            time = stopWatch.ElapsedTicks;
+            return result;
         }
         public static int EuclidAlgorithm(params int[] numbers)
         {
@@ -44,69 +55,59 @@ namespace EuclidAlgorithmLogicLayer
                 }
             }
             return firstNumber;
-        }
+        } 
+        #endregion
 
-        public static int BinaryEuclidAlgorithm(int firstNumber, int secondNumber, Stopwatch stopWatch = null)
+        #region BinaryEuclidAlgorithm
+        public static int BinaryEuclidAlgorithm(int firstNumber, int secondNumber)
         {
-            if (stopWatch != null && !stopWatch.IsRunning)
-            {
-                stopWatch.Start();
-            }
             if (firstNumber == 0)
             {
-                if (stopWatch != null)
-                {
-                    stopWatch.Stop();
-                }
                 return secondNumber;
             }
             if (secondNumber == 0)
             {
-                if (stopWatch != null)
-                {
-                    stopWatch.Stop();
-                }
                 return firstNumber;
             }
             if (firstNumber == secondNumber)
             {
-                if (stopWatch != null)
-                {
-                    stopWatch.Stop();
-                }
                 return firstNumber;
             }
             if (firstNumber == 1 || secondNumber == 1)
             {
-                if (stopWatch != null)
-                {
-                    stopWatch.Stop();
-                }
                 return 1;
             }
             if ((firstNumber % 2 == 0) && (secondNumber % 2 == 0))
             {
-                return 2 * BinaryEuclidAlgorithm(firstNumber >> 1, secondNumber >> 1, stopWatch);
+                return 2 * BinaryEuclidAlgorithm(firstNumber >> 1, secondNumber >> 1);
             }
             if ((firstNumber % 2 == 0) && (secondNumber % 2 != 0))
             {
-                return BinaryEuclidAlgorithm(firstNumber >> 1, secondNumber, stopWatch);
+                return BinaryEuclidAlgorithm(firstNumber >> 1, secondNumber);
             }
             if ((firstNumber % 2 != 0) && (secondNumber % 2 == 0))
             {
-                return BinaryEuclidAlgorithm(firstNumber, secondNumber >> 1, stopWatch);
+                return BinaryEuclidAlgorithm(firstNumber, secondNumber >> 1);
             }
             if (firstNumber % 2 != 0 && secondNumber % 2 != 0 && firstNumber > secondNumber)
             {
-                return BinaryEuclidAlgorithm((firstNumber - secondNumber) >> 1, secondNumber, stopWatch);
+                return BinaryEuclidAlgorithm((firstNumber - secondNumber) >> 1, secondNumber);
             }
             if (firstNumber % 2 != 0 && secondNumber % 2 != 0 && firstNumber < secondNumber)
             {
-                return BinaryEuclidAlgorithm((secondNumber - firstNumber) >> 1, firstNumber, stopWatch);
+                return BinaryEuclidAlgorithm((secondNumber - firstNumber) >> 1, firstNumber);
             }
             return 0;
         }
-
+        public static int BinaryEuclidAlgorithm(int firstNumber, int secondNumber, out long time)
+        {
+            Stopwatch stopWatch = new Stopwatch();
+            stopWatch.Start();
+            int result = BinaryEuclidAlgorithm(firstNumber, secondNumber);
+            stopWatch.Stop();
+            time = stopWatch.ElapsedTicks;
+            return result;
+        }
         public static int BinaryEuclidAlgorithm(params int[] numbers)
         {
             int firstNumber = numbers[0];
@@ -196,5 +197,15 @@ namespace EuclidAlgorithmLogicLayer
                 }
             }
         }
+        public static int BinaryEuclidAlgorithm(out long time, params int[] numbers)
+        {
+            Stopwatch stopWatch = new Stopwatch();
+            stopWatch.Start();
+            int result = BinaryEuclidAlgorithm(numbers);
+            stopWatch.Stop();
+            time = stopWatch.ElapsedTicks;
+            return result;
+        } 
+        #endregion
     }
 }

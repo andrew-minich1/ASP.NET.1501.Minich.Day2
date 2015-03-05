@@ -13,9 +13,8 @@ namespace BinaryEuclidAlgorithmTest
         {
             int first = 486037628;
             int second = 7;
-            Stopwatch stopWatch = new Stopwatch();
-            Assert.AreEqual(1, LCMAlgorithm.BinaryEuclidAlgorithm(first, second, stopWatch));
-            Assert.AreNotEqual(0, stopWatch.Elapsed.TotalMilliseconds);
+            long time;
+            Assert.AreEqual(1, LCMAlgorithm.BinaryEuclidAlgorithm(first, second, out time));
         }
 
         [TestMethod]
@@ -23,9 +22,8 @@ namespace BinaryEuclidAlgorithmTest
         {
             int first = 486037628;
             int second = 7;
-            Stopwatch stopWatch = new Stopwatch();
-            Assert.AreEqual(1, LCMAlgorithm.BinaryEuclidAlgorithm(first, second));
-            Assert.AreEqual(0, stopWatch.Elapsed.TotalMilliseconds);
+            long time;
+            Assert.AreEqual(1, LCMAlgorithm.BinaryEuclidAlgorithm(first, second, out time));
         }
 
         [TestMethod]

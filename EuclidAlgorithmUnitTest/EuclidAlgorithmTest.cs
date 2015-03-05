@@ -13,9 +13,9 @@ namespace EuclidAlgorithmUnitTest
         {
             int first = 486037628;
             int second = 7;
-            Stopwatch stopWatch = new Stopwatch();
-            Assert.AreEqual(1,LCMAlgorithm.EuclidAlgorithm(first, second, stopWatch));
-            Assert.AreNotEqual(0, stopWatch.Elapsed.TotalMilliseconds);
+            long watch;
+            Assert.AreEqual(1,LCMAlgorithm.EuclidAlgorithm(first, second,out watch));
+            Debug.WriteLine("watch = {0}", watch);
         }
 
         [TestMethod]
@@ -23,9 +23,10 @@ namespace EuclidAlgorithmUnitTest
         {
             int first = 900000;
             int second = 7;
-            Stopwatch stopWatch = new Stopwatch();
-            Assert.AreEqual(1, LCMAlgorithm.EuclidAlgorithm(first, second));
-            Assert.AreEqual(0, stopWatch.Elapsed.TotalMilliseconds);
+            long watch;
+            Assert.AreEqual(1, LCMAlgorithm.EuclidAlgorithm(first, second, out watch));
+            Debug.WriteLine("watch = {0}", watch);
+            
         }
 
         [TestMethod]
@@ -33,32 +34,32 @@ namespace EuclidAlgorithmUnitTest
         {
             int first = 0;
             int second = 5;
-            Stopwatch stopWatch = new Stopwatch();
-            Assert.AreEqual(5,LCMAlgorithm.EuclidAlgorithm(first, second, stopWatch));
+            Assert.AreEqual(5,LCMAlgorithm.EuclidAlgorithm(first, second));
         }
         [TestMethod]
         public void EuclidAlgorithmTestMethod4()
         {
             int first = 0;
             int second = 0;
-            Stopwatch stopWatch = new Stopwatch();
-            Assert.AreEqual( 0,LCMAlgorithm.EuclidAlgorithm(first, second, stopWatch));
+            Assert.AreEqual( 0,LCMAlgorithm.EuclidAlgorithm(first, second));
         }
         [TestMethod]
         public void EuclidAlgorithmTestMethod5()
         {
             int first = 5;
             int second = 5;
-            Stopwatch stopWatch = new Stopwatch();
-            Assert.AreEqual(5,LCMAlgorithm.EuclidAlgorithm(first, second, stopWatch));
+            long watch;
+            Assert.AreEqual(5,LCMAlgorithm.EuclidAlgorithm(first, second, out watch));
+            Debug.WriteLine("watch = {0}", watch);
         }
         [TestMethod]
         public void EuclidAlgorithmTestMethod6()
         {
             int first = -4;
             int second = 8;
-            Stopwatch stopWatch = new Stopwatch();
-            Assert.AreEqual(4,LCMAlgorithm.EuclidAlgorithm(first, second, stopWatch));
+            long watch;
+            Assert.AreEqual(4,LCMAlgorithm.EuclidAlgorithm(first, second, out watch));
+            Debug.WriteLine("watch = {0}", watch);
         }
     }
 }

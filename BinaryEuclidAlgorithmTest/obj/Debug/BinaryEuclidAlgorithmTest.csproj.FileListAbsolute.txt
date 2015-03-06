@@ -1,7 +1,0 @@
-C:\Users\Andrew\EPAM\ASP.NET.1501.Minich.Day2\BinaryEuclidAlgorithmTest\bin\Debug\BinaryEuclidAlgorithmTest.dll
-C:\Users\Andrew\EPAM\ASP.NET.1501.Minich.Day2\BinaryEuclidAlgorithmTest\bin\Debug\BinaryEuclidAlgorithmTest.pdb
-C:\Users\Andrew\EPAM\ASP.NET.1501.Minich.Day2\BinaryEuclidAlgorithmTest\bin\Debug\EuclidAlgorithmLogicLayer.dll
-C:\Users\Andrew\EPAM\ASP.NET.1501.Minich.Day2\BinaryEuclidAlgorithmTest\bin\Debug\EuclidAlgorithmLogicLayer.pdb
-C:\Users\Andrew\EPAM\ASP.NET.1501.Minich.Day2\BinaryEuclidAlgorithmTest\obj\Debug\BinaryEuclidAlgorithmTest.csprojResolveAssemblyReference.cache
-C:\Users\Andrew\EPAM\ASP.NET.1501.Minich.Day2\BinaryEuclidAlgorithmTest\obj\Debug\BinaryEuclidAlgorithmTest.dll
-C:\Users\Andrew\EPAM\ASP.NET.1501.Minich.Day2\BinaryEuclidAlgorithmTest\obj\Debug\BinaryEuclidAlgorithmTest.pdb

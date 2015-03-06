@@ -1,7 +1,0 @@
-C:\Users\Andrew\EPAM\ASP.NET.1501.Minich.Day2\UnitTestProject1\bin\Debug\UnitTestProject1.dll
-C:\Users\Andrew\EPAM\ASP.NET.1501.Minich.Day2\UnitTestProject1\bin\Debug\UnitTestProject1.pdb
-C:\Users\Andrew\EPAM\ASP.NET.1501.Minich.Day2\UnitTestProject1\bin\Debug\NewtonMethodLogicLayer.dll
-C:\Users\Andrew\EPAM\ASP.NET.1501.Minich.Day2\UnitTestProject1\bin\Debug\NewtonMethodLogicLayer.pdb
-C:\Users\Andrew\EPAM\ASP.NET.1501.Minich.Day2\UnitTestProject1\obj\Debug\NewtonMethodUnitTest.csprojResolveAssemblyReference.cache
-C:\Users\Andrew\EPAM\ASP.NET.1501.Minich.Day2\UnitTestProject1\obj\Debug\UnitTestProject1.dll
-C:\Users\Andrew\EPAM\ASP.NET.1501.Minich.Day2\UnitTestProject1\obj\Debug\UnitTestProject1.pdb

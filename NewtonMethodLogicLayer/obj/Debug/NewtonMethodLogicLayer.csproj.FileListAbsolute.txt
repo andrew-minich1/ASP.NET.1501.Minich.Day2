@@ -2,3 +2,4 @@ C:\Users\Andrew\EPAM\ASP.NET.1501.Minich.Day2\NewtonMethodLogicLayer\bin\Debug\N
 C:\Users\Andrew\EPAM\ASP.NET.1501.Minich.Day2\NewtonMethodLogicLayer\bin\Debug\NewtonMethodLogicLayer.pdb
 C:\Users\Andrew\EPAM\ASP.NET.1501.Minich.Day2\NewtonMethodLogicLayer\obj\Debug\NewtonMethodLogicLayer.dll
 C:\Users\Andrew\EPAM\ASP.NET.1501.Minich.Day2\NewtonMethodLogicLayer\obj\Debug\NewtonMethodLogicLayer.pdb
+C:\Users\Andrew\EPAM\ASP.NET.1501.Minich.Day2\NewtonMethodLogicLayer\obj\Debug\NewtonMethodLogicLayer.csprojResolveAssemblyReference.cache

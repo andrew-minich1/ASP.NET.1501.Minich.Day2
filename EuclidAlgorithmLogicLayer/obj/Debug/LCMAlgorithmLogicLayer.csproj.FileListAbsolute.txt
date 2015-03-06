@@ -2,3 +2,4 @@ C:\Users\Andrew\EPAM\ASP.NET.1501.Minich.Day2\EuclidAlgorithmLogicLayer\bin\Debu
 C:\Users\Andrew\EPAM\ASP.NET.1501.Minich.Day2\EuclidAlgorithmLogicLayer\bin\Debug\EuclidAlgorithmLogicLayer.pdb
 C:\Users\Andrew\EPAM\ASP.NET.1501.Minich.Day2\EuclidAlgorithmLogicLayer\obj\Debug\EuclidAlgorithmLogicLayer.dll
 C:\Users\Andrew\EPAM\ASP.NET.1501.Minich.Day2\EuclidAlgorithmLogicLayer\obj\Debug\EuclidAlgorithmLogicLayer.pdb
+C:\Users\Andrew\EPAM\ASP.NET.1501.Minich.Day2\EuclidAlgorithmLogicLayer\obj\Debug\LCMAlgorithmLogicLayer.csprojResolveAssemblyReference.cache

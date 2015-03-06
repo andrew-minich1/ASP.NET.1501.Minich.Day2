@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // Управление общими сведениями о сборке осуществляется посредством следующего 
 // набора атрибутов. Измените значения этих атрибутов, чтобы изменить сведения,
 // связанные со сборкой.
-[assembly: AssemblyTitle("NewtonMethodUnitTest")]
+[assembly: AssemblyTitle("UnitTestProject1")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Hewlett-Packard")]
-[assembly: AssemblyProduct("NewtonMethodUnitTest")]
+[assembly: AssemblyProduct("UnitTestProject1")]
 [assembly: AssemblyCopyright("Copyright © Hewlett-Packard 2015")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // Если данный проект доступен для модели COM, следующий GUID используется в качестве идентификатора библиотеки типов
-[assembly: Guid("614bd3a2-023f-41c8-8468-e4de24a0a309")]
+[assembly: Guid("6e9a4e99-0745-4510-99bc-1a65499154f2")]
 
 // Сведения о версии сборки состоят из следующих четырех значений:
 //

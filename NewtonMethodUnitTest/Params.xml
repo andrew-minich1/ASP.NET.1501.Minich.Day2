@@ -1,9 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
-<TestCases>
-  <TestCase>
-    <Number>1024</Number>
-    <Power>5</Power>
-    <Accurancy>0</Accurancy>
-    <ExpectedResult>4</ExpectedResult>
-  </TestCase>
-</TestCases>

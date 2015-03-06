@@ -2,3 +2,4 @@ C:\Users\Andrew\EPAM\ASP.NET.1501.Minich.Day2\CustomFormatterLogicLayer\bin\Debu
 C:\Users\Andrew\EPAM\ASP.NET.1501.Minich.Day2\CustomFormatterLogicLayer\bin\Debug\CustomFormatterLogicLayer.pdb
 C:\Users\Andrew\EPAM\ASP.NET.1501.Minich.Day2\CustomFormatterLogicLayer\obj\Debug\CustomFormatterLogicLayer.dll
 C:\Users\Andrew\EPAM\ASP.NET.1501.Minich.Day2\CustomFormatterLogicLayer\obj\Debug\CustomFormatterLogicLayer.pdb
+C:\Users\Andrew\EPAM\ASP.NET.1501.Minich.Day2\CustomFormatterLogicLayer\obj\Debug\CustomFormatterLogicLayer.csprojResolveAssemblyReference.cache

@@ -23,7 +23,7 @@ namespace CustomFormatterUnitTest
         public void CustomFormatterTestMethod3()
         {
             int decNumber = 24041;
-            Assert.AreEqual("24041", string.Format(new HexCustomFormatter(), "{0}", decNumber));
+            StringAssert.Equals("24040", string.Format(new HexCustomFormatter(), "{0}", decNumber));
         }
         [TestMethod]
         public void CustomFormatterTestMethod4()

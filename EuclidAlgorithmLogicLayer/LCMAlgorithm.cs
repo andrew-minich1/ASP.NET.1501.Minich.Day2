@@ -32,6 +32,7 @@ namespace EuclidAlgorithmLogicLayer
         }
         public static int EuclidAlgorithm(out long time, params int[] numbers)
         {
+            if (numbers == null) throw new NullReferenceException();
             Stopwatch stopWatch = new Stopwatch();
             stopWatch.Start();
             int result = EuclidAlgorithm(numbers);
@@ -41,6 +42,7 @@ namespace EuclidAlgorithmLogicLayer
         }
         public static int EuclidAlgorithm(params int[] numbers)
         {
+            if (numbers == null) throw new NullReferenceException();
             int firstNumber = numbers[0];
             int secondNumber;
             for (int i = 1; i < numbers.Length; i++)
@@ -110,6 +112,7 @@ namespace EuclidAlgorithmLogicLayer
         }
         public static int BinaryEuclidAlgorithm(params int[] numbers)
         {
+            if (numbers == null) throw new NullReferenceException();
             int firstNumber = numbers[0];
             int secondNumber = numbers[1];
             int current = 2;
@@ -199,6 +202,7 @@ namespace EuclidAlgorithmLogicLayer
         }
         public static int BinaryEuclidAlgorithm(out long time, params int[] numbers)
         {
+            if (numbers == null) throw new NullReferenceException();
             Stopwatch stopWatch = new Stopwatch();
             stopWatch.Start();
             int result = BinaryEuclidAlgorithm(numbers);

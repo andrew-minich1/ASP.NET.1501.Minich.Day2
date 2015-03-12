@@ -10,6 +10,8 @@ namespace NewtonMethodLogicLayer
     {
         public static double Radical(double number, int power, double accurancy)
         {
+            if (power == 0) throw new DivideByZeroException();
+            if (number < 0 && power % 2 == 0) throw new ArgumentException();
             if (number == 0) return 0;
             double x = 0, result = 1;
             do

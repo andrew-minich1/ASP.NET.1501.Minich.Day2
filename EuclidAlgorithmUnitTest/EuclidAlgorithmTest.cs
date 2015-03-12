@@ -61,7 +61,16 @@ namespace EuclidAlgorithmUnitTest
             long watch;
             Assert.AreEqual(4, LCMAlgorithm.EuclidAlgorithm(first, second, out watch));
             Debug.WriteLine("watch = {0}", watch);
-        } 
+        }
+
+        [TestMethod]
+        [ExpectedException(typeof(NullReferenceException))]
+        public void ExeptionEuclidAlgorithmTestMethod()
+        {
+            int[] numbers=null;
+            LCMAlgorithm.EuclidAlgorithm(numbers);
+        }
+
         #endregion
 
         #region BinaryEuclidAlgorithmTest
@@ -110,7 +119,15 @@ namespace EuclidAlgorithmUnitTest
             int first = -4;
             int second = 8;
             Assert.AreEqual(4, LCMAlgorithm.BinaryEuclidAlgorithm(first, second));
-        } 
+        }
+
+        [TestMethod]
+        [ExpectedException(typeof(NullReferenceException))]
+        public void ExeptionBinaryEuclidAlgorithmTestMethod()
+        {
+            int[] numbers = null;
+            LCMAlgorithm.BinaryEuclidAlgorithm(numbers);
+        }
         #endregion
     }
 }

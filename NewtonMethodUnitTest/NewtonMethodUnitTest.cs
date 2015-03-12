@@ -40,5 +40,25 @@ namespace UnitTestProject1
             double accurancy = 0;
             Assert.AreEqual(1.778, NewtonMethod.Radical(number, power, accurancy), 1E-3);
         }
+
+        [TestMethod]
+        [ExpectedException(typeof(ArgumentException))]
+        public void ExeptionNewtonMethodTestMethod()
+        {
+            double number = -16;
+            int power = 2;
+            double accurancy = 0;
+            NewtonMethod.Radical(number, power, accurancy);
+        }
+
+        [TestMethod]
+        [ExpectedException(typeof(DivideByZeroException))]
+        public void ExeptionNewtonMethodTestMethod2()
+        {
+            double number = -16;
+            int power = 0;
+            double accurancy = 0;
+            NewtonMethod.Radical(number, power, accurancy);
+        }
     }
 }

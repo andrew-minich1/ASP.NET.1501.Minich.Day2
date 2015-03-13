@@ -15,14 +15,7 @@ namespace UnitTestProject1
             double accurancy = 0;
             Assert.AreEqual(4, NewtonMethod.Radical(number, power, accurancy));
         }
-        [TestMethod]
-        public void NewtonMethodTestMethod2()
-        {
-            double number = 1024;
-            int power = 0;
-            double accurancy = 0;
-            Assert.AreEqual("NaN",NewtonMethod.Radical(number, power, accurancy).ToString());
-        }
+
         [TestMethod]
         public void NewtonMethodTestMethod3()
         {
